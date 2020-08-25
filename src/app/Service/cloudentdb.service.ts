@@ -13,7 +13,7 @@ export class CloudentdbService {
 
   getalldata():Observable<any>
   {
-    let url="http://localhost:5984/app_data/b52379406344bb4b36ec323a3800222c";
+    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     return this.http.get(url);
   }
 
