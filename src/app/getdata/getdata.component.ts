@@ -16,7 +16,6 @@ export class GetdataComponent implements OnInit {
   {
     this.service.getalldata().subscribe((Response)=>
     {
-      // console.log(Response);
       this.alldata=Response;
     })
   }
