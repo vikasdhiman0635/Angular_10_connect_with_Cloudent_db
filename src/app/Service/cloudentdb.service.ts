@@ -19,7 +19,7 @@ export class CloudentdbService {
 
   savedata(value: any):Observable<any>
   {
-    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     return this.http.post(url,value);
   }
 
