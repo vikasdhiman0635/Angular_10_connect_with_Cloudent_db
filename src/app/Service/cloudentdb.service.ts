@@ -13,13 +13,13 @@ export class CloudentdbService {
 
   getalldata():Observable<any>
   {
-    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     return this.http.get(url);
   }
 
   savedata(value: any):Observable<any>
   {
-    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+    let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     return this.http.post(url,value);
   }
 
