@@ -23,4 +23,3 @@ describe('GetdataComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
