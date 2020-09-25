@@ -22,7 +22,4 @@ export class CloudentdbService {
     let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     return this.http.post(url,value);
   }
-
-
-
 }
