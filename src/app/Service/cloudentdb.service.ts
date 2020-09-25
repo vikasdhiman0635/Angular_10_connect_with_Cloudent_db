@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CloudentdbService {
   
-  constructor(private http:HttpClient)   { }
+  constructor(private http:HttpClient) { }
   getalldata():Observable<any>
   {
     let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
