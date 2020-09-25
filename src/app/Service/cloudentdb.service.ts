@@ -10,7 +10,6 @@ export class CloudentdbService {
   constructor(private http:HttpClient) 
   { }
 
-
   getalldata():Observable<any>
   {
     let url="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
